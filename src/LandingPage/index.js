@@ -19,7 +19,7 @@ export default function LandingPage() {
             <button onClick={alterarTema}>
               <div>
                 <img src={tema ? "./assets/moon.png" : "./assets/sun.png"} alt="" />
-                <span className={tema ? "modo-claro" : "modo-escuro"}>{tema ? 'Dark' : 'Ligth'}</span>
+                <span className={tema ? "modo-claro" : "modo-escuro"}>{tema ? 'Dark' : 'Light'}</span>
               </div>
             </button>
           </div>
