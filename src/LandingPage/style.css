@@ -1,11 +1,13 @@
 .modo-escuro {
   background-color: #252323;
   color: #fff;
+
 }
 
 .modo-claro {
   background-color: #fff;
   color: #000;
+
 }
 
 
@@ -56,15 +58,17 @@ button div span {
 h1 {
   font-size: 35px;
   padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .secao-textos {
   text-align: center;
-  padding: 50px;
-  padding-bottom: 60px;
+  padding: 0px;
+  padding-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: center; 
+ height: 100%;
 }
 
 .texto {
@@ -72,14 +76,16 @@ max-width: 1000px;
 }
 
 .sobre {
-  padding: 10px;
+  padding: 15px;
   font-size: 18px;
+  
 }
 
 .assinatura {
   font-family: 'Great Vibes';
   font-size: 52px;
   padding-top: 25px;
+  padding-bottom: 25px;
   color: #b2987d;
 }
 
